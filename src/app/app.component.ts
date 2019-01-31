@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Alert } from 'selenium-webdriver';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Detailed';
+
+  constructor() {
+
+   }
+
+
 }

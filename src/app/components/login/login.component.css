@@ -1,0 +1,46 @@
+.body {
+    background-color: rgb(0, 255, 136);
+    background-image: linear-gradient(rgb(175, 255, 173), rgb(0, 255, 136));
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .loginbody {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 0px 0 3px 0px black;
+    width: 500px;
+    flex-direction: column
+  }
+  
+  
+  .edittext {
+    height: 30px;
+    border-radius: 8px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 20px;
+    border: 2px solid rgb(0, 255, 136);
+  
+  }
+  
+  .login {
+    background: rgb(0, 255, 136);
+    color: white;
+    border-radius: 10px;
+    width: 40%;
+    height: 30px;
+    margin-top: 40px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
